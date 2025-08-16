@@ -13,15 +13,10 @@ Cursor와 Playwright MCP를 활용해 로그인 플로우를 자동화하고, Py
 |   |-- cursor.md                # 프롬프트 문서
 |   `-- mcp.json                 # Playwright MCP 설정
 |
-|-- modify/                      # 사람이 보완한 코드
+|-- modify/                      # 보완한 코드
 |   `-- test_modify.py           # 수정/개선 버전
 |
-|-- tests/                       # (권장) 실제 실행용 Pytest 테스트 폴더
-|   |-- test_login_flow.py       # 4개 TC를 하나의 파일로 구성 예시
-|   `-- conftest.py              # 공통 픽스처(브라우저/비디오/트레이싱 등)
-|
-|-- .env.example                 # 환경변수 예시 파일(값은 비움)
-|-- requirements.txt             # 의존성 목록
+|-- .env                         # 환경변수 예시 파일(값은 비움)
 `-- README.md                    # 본 문서
 ```
 
