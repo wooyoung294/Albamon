@@ -170,10 +170,10 @@ class TestAlbamonLogin:
         # 수정
         login_btn = self.page.get_by_role("button", name="로그인", exact=True)
 
-        with self.page.expect_response(
-                lambda r: r.request.method == "POST" and re.search(r"/member/login(?:\?|$)", r.url)
-        ) as resp_info, \
-                self.page.expect_event("dialog", timeout=5000) as dlg_info:
+        with (self.page.expect_response(
+                lambda r: r.request.method == "POST" and re.search(r"/member/login", r.url)
+        ) as resp_info,
+            self.page.expect_event("dialog", timeout=5000) as dlg_info):
 
             login_btn.click(no_wait_after=True)
 
