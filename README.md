@@ -5,7 +5,7 @@ Cursor와 Playwright MCP를 활용해 로그인 플로우를 자동화하고, Py
  - SUITES: test_modify의 각 케이스에 tear_down을 누르신 후 browser_context에 테스트 영상이 포함되어 있습니다~
 <img width="1896" height="934" alt="Image" src="https://github.com/user-attachments/assets/b78b2932-4eb2-4a4a-b016-f0294c4e932d" />
 
-### 📁 프로젝트 구조(정리 버전)
+### 📁 프로젝트 구조
 ```text
 .
 |-- cursor/                      # Cursor + MCP 관련 산출물
