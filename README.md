@@ -1,4 +1,4 @@
-#### [AI Challenge] QA — Cursor × Playwright MCP 자동화 테스트
+#### [AI Challenge] QA — Cursor(model:auto) × Playwright MCP 자동화 테스트
 
 Cursor와 Playwright MCP를 활용해 로그인 플로우를 자동화하고, Pytest/Allure 기반 리포트를 생성하도록 구성했습니다.
 ### 🚀 테스트 리포트 주소: https://albamon.wooyoung.site
